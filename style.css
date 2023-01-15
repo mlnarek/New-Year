@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.header {
+    padding: 30px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav__link {
+    color: #f8b91f;
+}
+
+.nav__link:hover {
+    color: #b68c22;
+}
+
+.section {
+    height: 100vh;
+}
+
+.main {
+    background-color: rgb(153, 202, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(img/1639030332_36-almode-ru-p-novogodnii-fon-dlya-otkritki-36.jpg);
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 60px;
+    background-image: url(img/1659638632_36-funart-pro-p-zolotoi-fon-dlya-fotoshopa-krasivo-37.jpg);
+    background-size: color;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.title__top {
+    font-family: 'Great Vibes', cursive;
+}
+
+.title__bottom {
+    text-transform: uppercase;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.main__desc {
+    width: 500px;
+    font-size: 18px;
+}
+
+.main__link {
+    background-color: #f8b91f;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 165px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main__link:hover {
+    background-color: #b68c22;
+}
+
+.section__col {
+    width: 50%;
+}
+
+.desc {
+    display: flex;
+    background-color: #8cb9d4;
+    background-image: url(img/1618552069_22-phonoteka_org-p-sinii-novogodnii-fon-24.jpg);
+}
+
+.subtitle {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #f8b91f;
+}
+
+.desc__info {
+    padding: 50px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(img/pngwing.comоооо.png) no-repeat top right / 200px, url(img/pngwing.com.png) no-repeat center bottom / 250px
+}
+
+.desc__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.poem {
+    background-image: url(img/1613715554_183-p-novogodnii-fon-dlya-prezentatsii-237.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.poem__text {
+    background-color: rgb(255, 255, 255, 0.5);
+    font-size: 30px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: salmon;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 25px;
+}
